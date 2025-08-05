@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "gastos-diarios-468113",
+  "private_key_id": "506c3e0e741c7638f50f2ef26507e1b1b530aa4d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCt/8EUKNtDhn4Z\n/6pS6ZyAl/k4ePamvfK5/uGC1MvuELD036vwajk/W1I62ke+rediSVUQVg7khkqg\nOfSB/DyIDT+YDrTC+SUPcrjaw6cIgbq0UiwLRdLYsDcuhVSMlTpNeDT/qyOqPkAY\nRtJiTq/QOG+YUrFJxhR+/FUJnw+mn9qbzkss0pl3m8Zd8p37AS6QiUx+RHzUBNXI\nC4cO28QaLfbt3Aq1fW8U7eH6zQkDSteis1QCAqjTU/7kNdfDInVZJK2cECtR5z2B\nH1p3jEDAoj6QYcnSJTf7CSqoG6PMp9gz8yWS92/Pvn6d9uSmcuoiD3OuwprOC3Ua\n2C1LiWmBAgMBAAECggEAEWIMVLVC4oYchwBnGw1tAzPWRBwMQtrrKvBvGyD4lqS4\nPl6He5Hr0jaPX9h6yRlFP9PPrxLJ6MQPJIllsgQUZWCIH+rS3ZUCbNQAlRUYKjNm\nXFQb7lcKxMx7VtHJ1pmkpM9Y4XSkMC0z6Lj6lQkDa4FCiiyIuwlnoXVtZslV85wO\nfAahhimOein5ojg9roy0/kvid34YyOPovSbGr72q6ofm/nNECzAJ9IUoDXLXMVea\n65Pl60BKOafx3msG7WSvXe0cslla++cynF+nWWMxj7rTZxQ1P49bdbhMknfUcs7g\nEgD5Z1qyZLfDbssTLZsbt5MQn6BYWQgDFRnLxAPKeQKBgQDgvbo+WPTxueaiPBs8\nl6Je+cofyDVIHKpCQ8IhVoooRbYWt0qrUQCwSlW1JTaqikEbkUU8FMVZhsOgxZrI\nVM2BKQ+4i1+49QcbSmA8Xg1Q4oBoOwb7NLjEaxKq/CT+oDPo4s+yW2TdCc7EiOjr\nOhCk4XLTZ7jhpD69KWfb8qJ4VwKBgQDGM0XAKSpldvH2YLFaZcDW0nuvOZHDPF7d\nm9FXSPLODXGjcCo1MvUg1QDwwNRbO8AWFPgcFBi7lPG4CPzPPRTGNWF25dwbuGoO\n1koxlS/Jq4w/uXCIqUlMwlvpk4ymD5+j5eK/+GjFuu4hhM7rm4byVXyVHrorR/iB\nhlKla1/l5wKBgCLWZjtp8LZT2eOGK7atzraoQ+O/VjsSbnYNKNegIZRykfJdgU6j\nJNcu/rAwz5OKEOOkFjZlBd6F3Gdcmky5kI2X/t7dg/4YxXw+gEJ7VdcW9U6y77cb\nChUwf9lPcrChxsov9oAwWKdG8O1YR7rG6nOUmwcYSfl4S11pQLdAmlzLAoGAOCkL\nGJoRg1Ki2Rco6d5vN+/IUCxV2yZeExk1xi/LbQtuKct8ijp4LudsLsvU4E0b7qXe\nb8ZaA7z+iREy4V4DZu51QYV8SvaERtP9jfMh6VkMknnvIyoktPVVqee/MMa4i252\nQ8MVnQGMvD6vix80q7IBbReZ1O29wqXXATxdnf0CgYByVO6NEbzdqqGhN3YNhIOh\nEe3ODLNJTP1Au5935XquWCnhGUx5Y3lFW6FFBpQUJm01dwiSShbmD6RFAHPizAyL\nc3abkLHRhrKkccT/LWx4v0lcvGdl+zh6iiNriONnpHE8/W2JWQ7HCmC1N2f1lWuU\ncaVDPfvElCWFGhF1y+pfbA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "gastosrd-bot@gastos-diarios-468113.iam.gserviceaccount.com",
+  "client_id": "117975735294176287783",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gastosrd-bot%40gastos-diarios-468113.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
