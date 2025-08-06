@@ -15,7 +15,7 @@ from google.oauth2.service_account import Credentials
 
 # Cargar el JSON desde la variable de entorno
 credentials_dict = json.loads(os.environ["GOOGLE_CREDENTIALS"])
-
+scopes = ["https://www.googleapis.com/auth/spreadsheets"]
 # Crear credenciales de Google
 creds = Credentials.from_service_account_info(credentials_dict)
 
@@ -59,3 +59,4 @@ app = ApplicationBuilder().token(TOKEN).build()
 app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, save_expense))
 
 app.run_polling()
+
