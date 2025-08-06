@@ -16,8 +16,8 @@ from google.oauth2.service_account import Credentials
 credentials_dict = json.loads(os.environ["GOOGLE_CREDENTIALS"])
 
 # Scopes necesarios
-SCOPES = ["https://www.googleapis.com/auth/spreadsheets"],
-["https://www.googleapis.com/auth/drive"]
+SCOPES = ["https://www.googleapis.com/auth/spreadsheets",
+"https://www.googleapis.com/auth/drive"]
 
 # Crear credenciales
 creds = Credentials.from_service_account_info(credentials_dict, scopes=SCOPES)
@@ -62,6 +62,7 @@ app = ApplicationBuilder().token(TOKEN).build()
 app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, save_expense))
 
 app.run_polling()
+
 
 
 
