@@ -8,7 +8,20 @@ from datetime import datetime
 logging.basicConfig(level=logging.INFO)
 
 # Conectar con Google Sheets
-gc = gspread.service_account(filename="credenciales.json")  # Asegurate de tener este archivo JSON
+import os
+import json
+import gspread
+from google.oauth2.service_account import Credentials
+
+# Cargar el JSON desde la variable de entorno
+credentials_dict = json.loads(os.environ["GOOGLE_CREDENTIALS"])
+
+# Crear credenciales de Google
+creds = Credentials.from_service_account_info(credentials_dict)
+
+# Autorizar gspread
+gc = gspread.authorize(creds)
+
 sh = gc.open("Gastos Diarios")
 worksheet = sh.sheet1
 
@@ -44,4 +57,5 @@ async def save_expense(update: Update, context: ContextTypes.DEFAULT_TYPE):
 TOKEN = "7578655379:AAGtMfrOrLEHou3v-tKCfVZrIuker7JGzzs"
 app = ApplicationBuilder().token(TOKEN).build()
 app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, save_expense))
+
 app.run_polling()
